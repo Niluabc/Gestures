@@ -11,6 +11,10 @@
 		020223F62AFD37A400BF4222 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020223F52AFD37A400BF4222 /* ContentView.swift */; };
 		020223F82AFD37A600BF4222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020223F72AFD37A600BF4222 /* Assets.xcassets */; };
 		020223FB2AFD37A600BF4222 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020223FA2AFD37A600BF4222 /* Preview Assets.xcassets */; };
+		020224082AFE180400BF4222 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020224072AFE180400BF4222 /* InfoPanelView.swift */; };
+		0202240A2AFE4D5F00BF4222 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020224092AFE4D5F00BF4222 /* ControlImageView.swift */; };
+		0202240C2B07A30600BF4222 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0202240B2B07A30600BF4222 /* PageModel.swift */; };
+		0202240E2B07A3AC00BF4222 /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0202240D2B07A3AC00BF4222 /* PageData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		020223F52AFD37A400BF4222 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		020223F72AFD37A600BF4222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		020223FA2AFD37A600BF4222 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		020224072AFE180400BF4222 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		020224092AFE4D5F00BF4222 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
+		0202240B2B07A30600BF4222 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		0202240D2B07A3AC00BF4222 /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,7 @@
 				020224042AFD3A8900BF4222 /* Data */,
 				020224032AFD38AE00BF4222 /* Utilities */,
 				020224012AFD389600BF4222 /* Views */,
+				020224062AFE17D900BF4222 /* Screens */,
 				020223F32AFD37A400BF4222 /* GesturesApp.swift */,
 				020223F72AFD37A600BF4222 /* Assets.xcassets */,
 				020223F92AFD37A600BF4222 /* Preview Content */,
@@ -73,7 +82,8 @@
 		020224012AFD389600BF4222 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				020223F52AFD37A400BF4222 /* ContentView.swift */,
+				020224072AFE180400BF4222 /* InfoPanelView.swift */,
+				020224092AFE4D5F00BF4222 /* ControlImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -88,6 +98,7 @@
 		020224042AFD3A8900BF4222 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				0202240D2B07A3AC00BF4222 /* PageData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -95,8 +106,17 @@
 		020224052AFD3A9000BF4222 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0202240B2B07A30600BF4222 /* PageModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		020224062AFE17D900BF4222 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				020223F52AFD37A400BF4222 /* ContentView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,8 +189,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0202240A2AFE4D5F00BF4222 /* ControlImageView.swift in Sources */,
+				0202240C2B07A30600BF4222 /* PageModel.swift in Sources */,
 				020223F62AFD37A400BF4222 /* ContentView.swift in Sources */,
 				020223F42AFD37A400BF4222 /* GesturesApp.swift in Sources */,
+				0202240E2B07A3AC00BF4222 /* PageData.swift in Sources */,
+				020224082AFE180400BF4222 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
